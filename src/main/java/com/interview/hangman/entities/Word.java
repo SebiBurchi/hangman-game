@@ -29,6 +29,9 @@ public class Word {
     public void setValue(String value) {
         this.value = value;
         this.charactersFound = new char[this.value.length()];
+        for (int i = 0; i < charactersFound.length; i++) {
+            this.charactersFound[i] = '_';
+        }
     }
 
 

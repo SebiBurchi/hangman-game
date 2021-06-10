@@ -34,7 +34,7 @@ public class HangmanApplication {
             word.setValue(GeneratorFactory.getGenerator(type).generateNextWord());
 
             game.setWord(word);
-            game.setErrorsAllowedNo(7);
+            game.setErrorsAllowedNo(10);
             game.play(sc);
         }
         sc.close();

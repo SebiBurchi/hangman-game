@@ -1,6 +1,7 @@
 package com.interview.hangman.generate;
 
 
+import com.interview.hangman.enums.StackOptions;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
@@ -16,6 +17,6 @@ public class DevopsGenerator extends Generator {
 
     @Override
     public String getType() {
-        return "Devops";
+        return StackOptions.DEVOPS.getValue();
     }
 }

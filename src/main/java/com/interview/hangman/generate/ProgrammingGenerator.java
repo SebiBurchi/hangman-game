@@ -1,5 +1,6 @@
 package com.interview.hangman.generate;
 
+import com.interview.hangman.enums.StackOptions;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
@@ -14,6 +15,6 @@ public class ProgrammingGenerator extends Generator {
 
     @Override
     public String getType() {
-        return "Programming";
+        return StackOptions.PROGRAMMING.getValue();
     }
 }

@@ -1,6 +1,7 @@
 package com.interview.hangman.entities;
 
 import lombok.*;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -9,11 +10,11 @@ import java.util.List;
 
 @NoArgsConstructor
 @Component
+@Scope("prototype")
 public class Word {
 
     @Getter
     private String value;
-
     private char[] charactersFound;
     private List<String> enteredLetters;
     @Getter

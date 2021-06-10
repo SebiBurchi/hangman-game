@@ -12,7 +12,7 @@ public class DevopsGenerator extends Generator {
 
     @Override
     public List<String> generateWords() {
-        return Arrays.asList("KUBERNETES", "DOCKER", "AWS", "JENKINS");
+        return Arrays.asList("KUBERNETES", "DOCKER", "AWS", "JENKINS", "GIT", "ELK", "TEAMCITY", "BAMBOO", "OPENSHIFT", "HELM");
     }
 
     @Override

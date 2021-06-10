@@ -10,7 +10,7 @@ import java.util.List;
 public class ProgrammingGenerator extends Generator {
     @Override
     public List<String> generateWords() {
-        return Arrays.asList("JAVA", "GOLANG", "PYTHON", "RUBY");
+        return Arrays.asList("JAVA", "GOLANG", "PYTHON", "RUBY", "SCALA", "KOTLIN", "NET", "NODE", "TYPESCRIPT", "JAVASCRIPT");
     }
 
     @Override

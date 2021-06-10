@@ -34,7 +34,7 @@ public class Game {
     public void play(Scanner input) {
         System.out.println("\n" + this.word.getContent());
         while (this.word.getErrorsNo() < errorsAllowedNo) {
-            System.out.println("\nEnter a letter : ");
+            System.out.println("\nWrite a character: ");
             String letter = "";
             if (input.hasNext()) {
                 letter = input.next();
